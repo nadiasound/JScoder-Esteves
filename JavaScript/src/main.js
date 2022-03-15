@@ -1,6 +1,7 @@
-// Practica bucle ciclos
+// Practica Arrays
+
 const horasDormidas = [2, 5, 7, 14]
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < horasDormidas.length; i++) {
    if (horasDormidas[i] < 5)
       console.log(`las horas que dormiste son ${horasDormidas[i]} te estas drogando`)
 
@@ -15,3 +16,4 @@ for (let i = 0; i < 4; i++) {
    }
 
 }
+
